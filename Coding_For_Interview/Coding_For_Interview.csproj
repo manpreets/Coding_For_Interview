@@ -39,11 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormatNumbers.cs" />
+    <Compile Include="LargestNumberInArray.cs" />
     <Compile Include="MultiplicationTable.cs" />
     <Compile Include="NthFibonaccci.cs" />
+    <Compile Include="OddNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadTextFile.cs" />
     <Compile Include="ReverseString.cs" />
+    <Compile Include="SmallestNumber.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
