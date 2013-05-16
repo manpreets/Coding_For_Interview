@@ -42,10 +42,15 @@ namespace Coding_For_Interview
 
             //TEst array for index of smallest item in int array
             
-            int[] A = {34234,1,3,55345,34234,3432423,3423,234,234234,234234,3423423,342342,3,454235,4,24352345,1,4545 };
+            //int[] A = {34234,1,3,55345,34234,3432423,3423,234,234234,234234,3423423,342342,3,454235,4,24352345,1,4545 };
 
-            Console.WriteLine(" Smallest index : " + SmalleastNumber.GetIndexSmallestIntinArray(A));
+            //Console.WriteLine(" Smallest index : " + SmalleastNumber.GetIndexSmallestIntinArray(A));
 
+            Console.WriteLine(CamelCase.CamelCaseToLower("anotherCamelCaseZingfsdfFSdfsdfsDsdfsdfSDfSDAfSaDFSADFSAdFsDFdfSdfsdF"));
+
+
+
+            Console.WriteLine(CardSurcharge.GetSurcharge("Visa", .0000000001m));
 
         }
     }

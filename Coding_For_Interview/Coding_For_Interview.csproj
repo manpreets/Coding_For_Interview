@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CamelCase.cs" />
+    <Compile Include="CardSurcharge.cs" />
     <Compile Include="FormatNumbers.cs" />
     <Compile Include="LargestNumberInArray.cs" />
     <Compile Include="MultiplicationTable.cs" />
@@ -48,6 +50,7 @@
     <Compile Include="ReadTextFile.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="SmallestNumber.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
