@@ -1,8 +1,0 @@
-C:\Projects\Coding_For_Interview\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
-C:\Projects\Coding_For_Interview\ConsoleApplication\bin\Debug\ConsoleApplication.exe
-C:\Projects\Coding_For_Interview\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
-C:\Projects\Coding_For_Interview\ConsoleApplication\bin\Debug\ClassLibrary1.dll
-C:\Projects\Coding_For_Interview\ConsoleApplication\bin\Debug\ClassLibrary1.pdb
-C:\Projects\Coding_For_Interview\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
-C:\Projects\Coding_For_Interview\ConsoleApplication\obj\Debug\ConsoleApplication.exe
-C:\Projects\Coding_For_Interview\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
