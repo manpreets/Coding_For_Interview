@@ -50,6 +50,7 @@
     <Compile Include="ReadTextFile.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="SmallestNumber.cs" />
+    <Compile Include="StringOperations.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

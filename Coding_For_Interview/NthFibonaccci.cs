@@ -8,7 +8,8 @@ namespace Coding_For_Interview
 {
     public static class NthFibonaccci
     {
-        public static int FibonacciN(int n)
+        // 0 1 1 2 3 5 8 13
+        public static int FibonacciTwoVariables(int n)
         {
             int a = 0;
             int b = 1;
@@ -20,5 +21,7 @@ namespace Coding_For_Interview
             // a = 0 b = 1; b=1 a=1; b=2 a=1; b=3 a=2; b=5 a=3 
             return a;
         }
+
+
     }
 }

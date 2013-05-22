@@ -24,7 +24,7 @@ namespace Coding_For_Interview
 
             //for (int i = 1; i <= 20; i++)
             //{
-            //    Console.WriteLine(NthFibonaccci.FibonacciN(i));
+            //    Console.WriteLine(NthFibonaccci.FibonacciTwoVariables(i));
             //}
 
             ////Print multiplication table for nxn
@@ -46,11 +46,19 @@ namespace Coding_For_Interview
 
             //Console.WriteLine(" Smallest index : " + SmalleastNumber.GetIndexSmallestIntinArray(A));
 
-            Console.WriteLine(CamelCase.CamelCaseToLower("anotherCamelCaseZingfsdfFSdfsdfsDsdfsdfSDfSDAfSaDFSADFSAdFsDFdfSdfsdF"));
+           // Console.WriteLine(CamelCase.CamelCaseToLower("anotherCamelCaseZingfsdfFSdfsdfsDsdfsdfSDfSDAfSaDFSADFSAdFsDFdfSdfsdF"));
 
 
 
-            Console.WriteLine(CardSurcharge.GetSurcharge("Visa", .0000000001m));
+            //Console.WriteLine(CardSurcharge.GetSurcharge("Visa", .0000000001m));
+
+            ////Get N number of random chars from int n
+            
+            //Console.WriteLine(StringOperations.GetRandomNChars(4));
+
+            //Console.WriteLine(StringOperations.GetRandomNChars(4));
+
+            Console.WriteLine(StringOperations.GetNumberofRepetitionsCharacter("I am writing a simple program to calculate the repetition of characters in a string sequence. The program I have for now is as below, but I am looking to see if it can be optimized any further. I believe the program right now is O(n) worst case time and I would like to see if there is something that can give me O(log n) running time."));
 
         }
     }
