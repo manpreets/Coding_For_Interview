@@ -50,7 +50,7 @@ namespace Coding_For_Interview
         }
 
         /// <summary>
-        /// 
+        /// Input a string of any length to get 
         /// </summary>
         /// <param name="inputString"></param>
         /// <returns>string</returns>

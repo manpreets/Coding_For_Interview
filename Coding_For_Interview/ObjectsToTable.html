@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Object to table</title>
+    <script>
+        window.onload = function () {
+
+            address1 = { street: "1 James St", suburb: "St Albans", state: "VIC" };
+            address2 = { street: "2 Alder St", suburb: "St Anatnio", state: "QLD" };
+            address3 = { street: "3 Elenor St", suburb: "Georgia", state: "NSW" };
+            address4 = { street: "4 Cianre St", suburb: "Melbourne", state: "TAS" };
+
+            var allAddresses = new Array(address1, address2, address3, address4);
+
+            var bodyDoc = document.getElementsByTagName("body")[0];
+            var tbl = document.createElement("table");
+            tbl.setAttribute("border", "1");
+            var tbody = document.createElement("tbody");
+
+            for (var i = 0; i < allAddresses.length; i++) {
+                var tr = document.createElement("tr");
+
+                for (var address in allAddresses[i]) {
+
+                    var td = document.createElement("td");
+                    td.appendChild(document.createTextNode(allAddresses[i][address]));
+                    tr.appendChild(td);
+
+                }
+
+                tbody.appendChild(tr);
+            }
+
+            tbl.appendChild(tbody);
+
+            bodyDoc.appendChild(tbl);
+
+        };
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
